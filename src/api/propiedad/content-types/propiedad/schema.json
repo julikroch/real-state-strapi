@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "propiedades",
+  "info": {
+    "singularName": "propiedad",
+    "pluralName": "propiedades",
+    "displayName": "Propiedades",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "rooms": {
+      "type": "integer",
+      "required": true
+    },
+    "parking": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
