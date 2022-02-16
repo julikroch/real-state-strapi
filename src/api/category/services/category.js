@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * propiedad service.
+ * category service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::propiedad.propiedad');
+module.exports = createCoreService('api::category.category');

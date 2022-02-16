@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "propiedades",
+  "collectionName": "sellers",
   "info": {
-    "singularName": "propiedad",
-    "pluralName": "propiedades",
-    "displayName": "Propiedades",
+    "singularName": "seller",
+    "pluralName": "sellers",
+    "displayName": "Sellers",
     "description": ""
   },
   "options": {
@@ -16,12 +16,12 @@
       "type": "string",
       "required": true
     },
-    "rooms": {
-      "type": "integer",
+    "mail": {
+      "type": "email",
       "required": true
     },
-    "parking": {
-      "type": "integer",
+    "phone": {
+      "type": "string",
       "required": true
     }
   }
